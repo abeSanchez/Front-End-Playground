@@ -13,22 +13,31 @@
         <li><a class="active" href="#home">Home</a></li>
         <li style="float:left"><a class="brand" href="#home">Sweet Wear</a></li>
     </ul>
-    <div class="top">
-        <h1 style="font-size:50px">Welcome</h1>
+    <div class="top" id="home">
+        <h1 style="font-size:50px; margin-bottom: 0px">Welcome</h1>
         <p>hahsdf aosjfh hwfi efhiw efhi wejfh difhds fjahdfjih sdjifh iajfh iwej fiaa iwef hai </p>
 
-        <a href="#about"><button >Submit</button></a>
+        <a href="#about"><button >Learn More</button></a>
     </div>
 
     <div class="about" id="about">
-      <h1 style="text-align:center">About</h1>
-      <p>Hey, I'm Abe! I love creating things from nothing :)</p>
+        <h1 style="text-align:center; font-size: 50px; margin-top:0px;">About</h1>
+        <p>Hey, I'm Abe! I love creating things from nothing :)</p>
     </div>
 
-    <div class="contact">
-      adf
+    <div class="contact" id="contact">
+        adf
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).on('click', 'a', function(event) {
+            event.preventDefault();
 
+            $('html, body').animate({
+                scrollTop: $($.attr(this, 'href')).offset().top
+            }, 400);
+        });
+    </script>
 </body>
 
 </html>

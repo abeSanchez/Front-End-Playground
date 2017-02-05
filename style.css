@@ -1,10 +1,9 @@
 html {
     font-family: Montserrat, sans-serif;
-    ;
 }
 
 body {
-  margin: 0;
+    margin: 0;
 }
 
 button {
@@ -57,6 +56,10 @@ li a:hover {
     background-color: #eee;
 }
 
+p {
+    font-size: 20px;
+}
+
 .top {
     background: linear-gradient(to bottom right, #5b578e 0%, #5cd6d2 100%);
     text-align: center;
@@ -72,18 +75,18 @@ li a:hover {
 }
 
 .about {
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  color: #5b578e;
-  text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #5b578e;
+    text-align: center;
 }
 
 .contact {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background-color: #333333;
-  text-align: center;
-  color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #333333;
+    text-align: center;
+    color: white;
 }
